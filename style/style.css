@@ -34,6 +34,7 @@ body {
     font-family: var(--font-padrao);
     background-color: var(--cor4);
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
