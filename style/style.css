@@ -27,10 +27,6 @@
     box-sizing: border-box;
 }
 
-body, html {
-    overflow: hidden;
-}
-
 body {
     display: flex;
     flex-direction: column;
