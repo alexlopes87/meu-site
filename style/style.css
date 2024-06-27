@@ -159,7 +159,7 @@ aside {
 }
 
 aside img {
-    width: 25px;
+    width: 30px;
     margin-right: 10px;
 }
 
@@ -217,6 +217,11 @@ footer a:hover {
 
     article > h2 {
         font-size: 2.5em;
+    }
+
+    aside img {
+        width: 21px;
+        margin-right: 8px;
     }
 
     footer {
