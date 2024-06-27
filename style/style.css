@@ -180,6 +180,17 @@ footer {
     height: 25px;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/**/
+
 @media (max-width: 768px) {
     nav > ul > li {
         padding: 8px;
