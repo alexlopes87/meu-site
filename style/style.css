@@ -191,7 +191,6 @@ footer a:hover {
 }
 
 /* Responsividade */
-
 @media (max-width: 768px) {
     nav > ul > li {
         padding: 8px;
@@ -263,67 +262,5 @@ footer a:hover {
     footer {
         font-size: 0.5em;
         padding: 2px;
-    }
-}
-
-/* Estilos para paisagem */
-@media (orientation: landscape) {
-    body {
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    main {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
-    section {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
-    div.container {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
-    article {
-        margin-left: 20px;
-    }
-}
-
-/* Estilos para retrato */
-@media (orientation: portrait) {
-    body {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    main {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    section {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    div.container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    article {
-        margin-left: 0;
     }
 }
