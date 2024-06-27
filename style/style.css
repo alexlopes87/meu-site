@@ -33,7 +33,7 @@ body {
     align-items: center;
     font-family: var(--font-padrao);
     background-color: var(--cor4);
-    min-height: 100dvh;
+    min-height: 100svh;
 }
 
 header {
