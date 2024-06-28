@@ -137,6 +137,7 @@ article > h2 {
     color: var(--cor3);
     font-family: var(--font-nome), var(--font-padrao);
     font-size: 3.4em;
+    padding-left: 5px;
 }
 
 article > h3 {
@@ -145,6 +146,7 @@ article > h3 {
     font-size: 1.7em;
     background-color: var(--cor3);
     border-radius: 20px;
+    
 }
 
 div.linha-gradiente {
