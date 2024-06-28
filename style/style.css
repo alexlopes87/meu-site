@@ -142,6 +142,7 @@ article > h2 {
 article > h3 {
     color: var(--cor3);
     font-family: var(--font-code), var(--font-padrao);
+    font-size: 1.5em;
 }
 
 div.linha-gradiente {
@@ -193,23 +194,24 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
-
-
-* Media Queries */
+/* Responsividade */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
+    header > h1{
+        font-size: 1.3em;
+        padding: 8px;
     }
 
-    nav {
-        margin-left: 0;
-        margin-top: 10px;
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.container > img {
+        max-width: 270px;
     }
 
     article {
-        margin-left: 0;
+        margin-left: 0px;
     }
 
     article > h1 {
@@ -218,6 +220,15 @@ footer a:hover {
 
     article > h2 {
         font-size: 2.5em;
+    }
+
+    article > h3 {
+        font-size: 1.2em;
+    }
+
+    aside img {
+        width: 25px;
+        margin-right: 8px;
     }
 }
 
@@ -231,6 +242,10 @@ footer a:hover {
         padding: 8px;
     }
 
+    div.container > img {
+        max-width: 250px;
+    }
+
     article > h1 {
         font-size: 0.9em;
     }
@@ -240,10 +255,11 @@ footer a:hover {
     }
 
     article > h3 {
-        font-size: 0.9em;
+        font-size: 1.1em;
     }
 
-    div.container > img {
-        max-width: 250px;
+    aside img {
+        width: 22px;
+        margin-right: 7px;
     }
 }
