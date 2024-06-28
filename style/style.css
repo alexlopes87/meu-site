@@ -137,7 +137,7 @@ article > h2 {
     color: var(--cor3);
     font-family: var(--font-nome), var(--font-padrao);
     font-size: 3.4em;
-    padding-left: 5px;
+    padding-left: 4px;
 }
 
 article > h3 {
