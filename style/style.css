@@ -127,7 +127,7 @@ article {
 }
 
 article > h1 {
-    color: var(--cor3);
+    color: var(--cor2);
     text-align: center;
     font-family: var(--font-paragrafo), var(--font-padrao);
     font-size: 1.2em;
@@ -142,7 +142,7 @@ article > h2 {
 article > h3 {
     color: var(--cor2);
     font-family: var(--font-code), var(--font-padrao);
-    font-size: 1.5em;
+    font-size: 1.7em;
     background-color: var(--cor3);
     border-radius: 20px;
 }
@@ -230,7 +230,7 @@ footer a:hover {
     }
 
     article > h3 {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     aside img {
@@ -262,7 +262,7 @@ footer a:hover {
     }
 
     article > h3 {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     aside img {
