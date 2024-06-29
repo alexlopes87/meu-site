@@ -121,16 +121,15 @@ div.container > img {
 }
 
 article {
-    margin-left: 50px;
-    text-align: center;
-    padding: 10px;
+    padding: 50px;
 }
 
 article > h1 {
     color: var(--cor2);
-    text-align: center;
     font-family: var(--font-paragrafo), var(--font-padrao);
     font-size: 1.2em;
+    width: 11ch;
+    padding-left: 2ch;
 }
 
 article > h2 {
@@ -140,13 +139,36 @@ article > h2 {
     padding-left: 4px;
 }
 
-article > h3 {
-    color: var(--cor2);
-    font-family: var(--font-code), var(--font-padrao);
-    font-size: 1.7em;
+
+article > div.digitado {
+    display: flex;
+    justify-content: center;
     background-color: var(--cor3);
     border-radius: 20px;
-    
+}
+
+article > div > p {
+    width: 15ch;
+    color: var(--cor2);
+    font-family: monospace, var(--font-code), var(--font-padrao);
+    font-size: 1.4em;
+
+    border-right: 2px solid var(--cor1);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: digitadoTexto steps(15) 2s, piscarMarcador 0.8s linear infinite;
+}
+
+@keyframes piscarMarcador {
+    50% {
+        border-right: transparent;
+    }
+}
+
+@keyframes digitadoTexto {
+    0% {
+        width: 0%;
+    }
 }
 
 div.linha-gradiente {
@@ -156,14 +178,8 @@ div.linha-gradiente {
     margin: 20px 0;
 }
 
-article > aside > h3 {
-    color: var(--cor2);
-    margin-bottom: 10px;
-    font-size: 1.1em;
-}
-
 aside {
-    display: block;
+    text-align: center;
     padding: 10px;
 }
 
@@ -253,6 +269,10 @@ footer a:hover {
 
     div.container > img {
         max-width: 250px;
+    }
+
+    article {
+        
     }
 
     article > h1 {
