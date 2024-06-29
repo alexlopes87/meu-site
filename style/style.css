@@ -146,7 +146,7 @@ article > div.digitado {
     justify-content: center;
     background-color: var(--cor3);
     border-radius: 20px;
-    padding: 3px;
+    padding: 3px 0px;
 }
 
 article > div > p {
@@ -219,7 +219,6 @@ footer a:hover {
 @media (max-width: 768px) {
     header > h1{
         font-size: 1.3em;
-        padding: 8px;
     }
 
     nav > ul > li {
