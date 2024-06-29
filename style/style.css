@@ -240,7 +240,7 @@ footer a:hover {
     }
 
     article > h1 {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     article > h2 {
@@ -248,7 +248,7 @@ footer a:hover {
     }
 
     article > div > p {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     aside img {
@@ -272,7 +272,7 @@ footer a:hover {
     }
 
     article > h1 {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 
     article > h2 {
@@ -280,7 +280,7 @@ footer a:hover {
     }
 
     article > div > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     aside img {
