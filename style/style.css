@@ -92,7 +92,7 @@ main {
     flex: 1;
     min-width: 280px;
     max-width: 1000px;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 section {
@@ -176,7 +176,6 @@ div.linha-gradiente {
 
 aside {
     text-align: center;
-    padding: 0px;
 }
 
 aside img {
@@ -198,7 +197,7 @@ footer {
     font-size: 0.7em;
     color: var(--cor2);
     width: 100%;
-    height: 25px;
+    padding: 6px;
 }
 
 footer a {
@@ -247,7 +246,7 @@ footer a:hover {
     }
 }
 
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
     header > h1 {
         font-size: 1.2em;
     }
@@ -276,4 +275,4 @@ footer a:hover {
         width: 22px;
         margin-right: 7px;
     }
-}*/
+}
