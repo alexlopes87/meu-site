@@ -32,6 +32,7 @@ body {
     align-items: center;
     font-family: var(--font-padrao);
     background-color: var(--cor1);
+    height: 100%;
     min-height: 100vh;
 }
 
@@ -152,6 +153,7 @@ article > div > p {
     color: var(--cor2);
     font-family: monospace, var(--font-code), var(--font-padrao);
     font-size: 1.4em;
+    padding: 3px;
 
     border-right: 2px solid var(--cor1);
     white-space: nowrap;
