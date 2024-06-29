@@ -45,6 +45,7 @@ header {
     width: 100%;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.507);
     padding: 10px;
+    color: var(--cor2);
 }
 
 header > h1 {
@@ -60,6 +61,7 @@ header > h1 > a {
 
 nav {
     margin-left: auto;
+    color: inherit;
 }
 
 nav > ul {
@@ -72,7 +74,6 @@ nav > ul > li {
     font-family: 'Oswald', var(--font-padrao);
     font-size: 0.9em;
     font-weight: bold;
-    color: var(--cor3);
     margin-right: 12px;
 }
 
@@ -82,9 +83,9 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-    color: inherit;
+    color: var(--cor3);
     transition-duration: 0.5s;
-    filter: brightness(1.9);
+    /*filter: brightness(1.9);*/
 }
 
 main {
