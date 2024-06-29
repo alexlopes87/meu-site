@@ -187,6 +187,7 @@ aside img {
 }
 
 div.linha-gradiente-footer {
+    display: block;
     width: 100%;
     height: 2px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--cor3), rgba(0, 0, 0, 0));
