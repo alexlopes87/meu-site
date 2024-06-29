@@ -201,6 +201,7 @@ footer {
     color: var(--cor2);
     width: 100%;
     padding: 6px;
+    height: 25px;
 }
 
 footer a {
@@ -250,10 +251,6 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
-    html, body {
-        height: 100%;
-    }
-
     header > h1 {
         font-size: 1.2em;
     }
