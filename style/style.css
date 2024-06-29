@@ -58,7 +58,6 @@ header > h1 > a {
 nav {
     margin-left: auto;
     padding: 6px;
-    
 }
 
 nav > ul {
@@ -140,7 +139,6 @@ article > h2 {
     padding-left: 4px;
 }
 
-
 article > div.digitado {
     display: flex;
     justify-content: center;
@@ -176,12 +174,12 @@ div.linha-gradiente {
     width: 100%;
     height: 1px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--cor0), rgba(0, 0, 0, 0));
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 aside {
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 aside img {
@@ -223,7 +221,6 @@ footer a:hover {
 
     nav > ul > li {
         font-size: 0.8em;
-        padding: 8px;
     }
 
     main {
@@ -264,7 +261,6 @@ footer a:hover {
 
     nav > ul > li {
         font-size: 0.8em;
-        padding: 8px;
     }
 
     div.container > img {
