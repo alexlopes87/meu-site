@@ -41,7 +41,7 @@ header {
     align-items: center;
     width: 100%;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.507);
-    padding: 0 20px;
+    padding: 10px;
 }
 
 header > h1 {
@@ -57,14 +57,12 @@ header > h1 > a {
 
 nav {
     margin-left: auto;
-    padding: 6px;
 }
 
 nav > ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0;
 }
 
 nav > ul > li {
@@ -72,7 +70,7 @@ nav > ul > li {
     font-size: 0.9em;
     font-weight: bold;
     color: var(--cor3);
-    padding: 10px;
+    margin-right: 12px;
 }
 
 nav > ul > li > a {
@@ -128,8 +126,7 @@ article > h1 {
     color: var(--cor2);
     font-family: var(--font-paragrafo), var(--font-padrao);
     font-size: 1.2em;
-    width: 11ch;
-    padding-left: 2ch;
+    padding-left: 3ch;
 }
 
 article > h2 {
@@ -148,14 +145,14 @@ article > div.digitado {
 }
 
 article > div > p {
-    width: 15ch;
+    width: 13ch;
     color: var(--cor2);
     font-family: monospace, var(--font-code), var(--font-padrao);
     font-size: 1.4em;
     border-right: 2px solid var(--cor1);
     white-space: nowrap;
     overflow: hidden;
-    animation: digitadoTexto steps(15) 2s, piscarMarcador 0.8s linear infinite;
+    animation: digitadoTexto steps(13) 2.5s, piscarMarcador 0.8s linear infinite;
 }
 
 @keyframes piscarMarcador {
@@ -216,11 +213,11 @@ footer a:hover {
 /* Responsividade */
 @media (max-width: 768px) {
     header > h1{
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     nav > ul > li {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     main {
@@ -230,10 +227,6 @@ footer a:hover {
 
     div.container > img {
         max-width: 270px;
-    }
-
-    article {
-        margin-left: 0px;
     }
 
     article > h1 {
@@ -254,7 +247,7 @@ footer a:hover {
     }
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     header > h1 {
         font-size: 1.2em;
     }
@@ -283,4 +276,4 @@ footer a:hover {
         width: 22px;
         margin-right: 7px;
     }
-}
+}*/
