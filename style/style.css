@@ -52,6 +52,7 @@ header > h1 {
     font-size: 1.5em;
     font-family: 'Oswald', var(--font-padrao);
     color: var(--cor3);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
 header > h1 > a {
@@ -75,6 +76,7 @@ nav > ul > li {
     font-size: 0.9em;
     font-weight: bold;
     margin-right: 12px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
 nav > ul > li > a {
@@ -131,6 +133,7 @@ article > h1 {
     font-family: var(--font-paragrafo), var(--font-padrao);
     font-size: 1.2em;
     padding-left: 3ch;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
 article > h2 {
@@ -138,6 +141,7 @@ article > h2 {
     font-family: var(--font-nome), var(--font-padrao);
     font-size: 3.4em;
     padding-left: 4px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
 article > div.digitado {
@@ -146,6 +150,7 @@ article > div.digitado {
     background-color: var(--cor3);
     border-radius: 20px;
     padding: 3px 0px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
 article > div > p {
@@ -185,6 +190,8 @@ aside {
 aside img {
     width: 35px;
     margin-right: 12px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.685);
 }
 
 div.linha-gradiente-footer {
@@ -203,6 +210,7 @@ footer {
     color: var(--cor2);
     width: 100%;
     padding: 6px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
 footer a {
