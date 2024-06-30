@@ -36,7 +36,6 @@ body {
     align-items: center;
     font-family: var(--font-padrao);
     background-color: var(--cor1);
-    
 }
 
 header {
@@ -87,7 +86,6 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     color: var(--cor3);
     transition-duration: 0.5s;
-    /*filter: brightness(1.9);*/
 }
 
 main {
@@ -223,7 +221,6 @@ footer a:hover {
 }
 
 
-/* Responsividade */
 @media (max-width: 768px) {
     header > h1{
         font-size: 1.2em;
