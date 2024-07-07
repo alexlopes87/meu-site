@@ -152,14 +152,14 @@ article > div.digitado {
 }
 
 article > div > p {
-    width: 13ch;
+    width: 9ch;
     color: var(--cor2);
     font-family: monospace, var(--font-code), var(--font-padrao);
     font-size: 1.4em;
     border-right: 2px solid var(--cor1);
     white-space: nowrap;
     overflow: hidden;
-    animation: digitadoTexto steps(13) 2.5s, piscarMarcador 0.8s linear infinite;
+    animation: digitando steps(9) 2.5s, piscarMarcador 0.8s linear infinite;
 }
 
 @keyframes piscarMarcador {
@@ -168,7 +168,7 @@ article > div > p {
     }
 }
 
-@keyframes digitadoTexto {
+@keyframes digitando {
     0% {
         width: 0%;
     }
@@ -190,6 +190,11 @@ aside img {
     margin-right: 12px;
     border-radius: 50px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.685);
+}
+
+aside img:hover {
+    transform: translate(-3px, -7px);
+    transition-duration: 0.3s;
 }
 
 div.linha-gradiente-footer {
