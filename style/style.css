@@ -6,7 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oxygen:wght@300;400;700&family=Tiny5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-
 :root {
     --cor0: #6C6B74;
     --cor1: #212624;
@@ -27,7 +26,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100dvh;
 }
 
 body {
@@ -104,7 +103,7 @@ section {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 div.container {
@@ -226,6 +225,7 @@ footer a:hover {
 }
 
 
+/* Responsividade */
 @media (max-width: 768px) {
     header > h1{
         font-size: 1.2em;
