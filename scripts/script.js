@@ -1,7 +1,7 @@
 function showMenu() {
-    if (itens.style.display == 'none') {
-        itens.style.display = 'block'
-    } else {
-        itens.style.display = 'none'
-    }
+    document.getElementById("menu").style.width = "150px"
+}
+
+function closeMenu() {
+    document.getElementById("menu").style.width = "0px"
 }
