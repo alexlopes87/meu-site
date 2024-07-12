@@ -94,8 +94,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     flex: 1;
-    /*min-width: 280px;
-    max-width: 1000px;*/
 }
 
 section {
@@ -104,7 +102,6 @@ section {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    /*width: 100%;*/
 }
 
 div.container {
@@ -115,7 +112,6 @@ div.container {
 }
 
 div.container > img {
-    /*width: 100%;*/
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -189,7 +185,7 @@ aside {
 aside img {
     width: 35px;
     height: 35px;
-    margin-right: 12px;
+    margin: 0 5px;
     border-radius: 50px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.685);
 }
@@ -227,52 +223,23 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Modo retrato */
-@media screen and (orientation: portrait) {
-    
-}
-
-/* Modo paisagem */
-@media screen and (orientation: landscape) {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsividade */
-/*@media (max-width: 768px) {
+@media screen and (max-width: 767px) and (orientation: portrait) {
     header > h1{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     nav > ul > li {
         font-size: 0.7em;
     }
 
-    main {
-        flex-direction: column;
-        align-items: center;
-    }
-
     div.container > img {
-        max-width: 270px;
+        width: 290px;
+        height: 290px;
     }
 
     article > h1 {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     article > h2 {
@@ -284,38 +251,39 @@ footer a:hover {
     }
 
     aside img {
-        width: 25px;
-        margin-right: 8px;
-    }
+        width: 30px;
+        height: 30px;
+    }   
 }
 
-@media (max-width: 480px) {
-    header > h1 {
-        font-size: 1.2em;
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    header > h1{
+        font-size: 1.3em;
     }
 
     nav > ul > li {
-        font-size: 0.8em;
-    }
-
-    div.container > img {
-        max-width: 250px;
-    }
-
-    article > h1 {
         font-size: 0.7em;
     }
 
+    div.container > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    article > h1 {
+        font-size: 0.9em;
+    }
+
     article > h2 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     article > div > p {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     aside img {
-        width: 22px;
-        margin-right: 7px;
-    }
-}*
+        width: 30px;
+        height: 30px;
+    }   
+}
