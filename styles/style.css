@@ -234,25 +234,25 @@ footer a:hover {
     }
 
     div.container > img {
-        width: 290px;
-        height: 290px;
+        width: 250px;
+        height: 250px;
     }
 
     article > h1 {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     article > h2 {
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
 
     article > div > p {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 
     aside img {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
     }   
 }
 
@@ -283,7 +283,7 @@ footer a:hover {
     }
 
     aside img {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
     }   
 }
