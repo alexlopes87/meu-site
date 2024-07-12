@@ -244,7 +244,8 @@ footer a:hover {
     }
 
     div.container > img {
-        max-width: 270px;
+        width: 270px;
+        height: 270px;
     }
 
     article > h1 {
@@ -294,6 +295,7 @@ footer a:hover {
 
     aside img {
         width: 22px;
+        height: 22px;
         margin-right: 7px;
     }
 }
