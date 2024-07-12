@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Tiny5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oxygen:wght@300;400;700&family=Tiny5&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
     --cor0: #6C6B74;
@@ -16,13 +15,12 @@
     --font-titulo: 'Oswald';
     --font-nome: 'Tiny5';
     --font-paragrafo: 'Oxygen';
-    --font-code: 'Code Source Pro';
+    --font-code: 'Source Code Pro';
 }
 
 * {
     margin: 0px;
     padding: 0px;
-    border: 0px;
     box-sizing: border-box;
 }
 
@@ -94,8 +92,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     flex: 1;
-    /*min-width: 280px;
-    max-width: 1000px;*/
 }
 
 section {
@@ -104,7 +100,6 @@ section {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    /*width: 100%;*/
 }
 
 div.container {
@@ -190,7 +185,7 @@ aside {
 aside img {
     width: 35px;
     height: 35px;
-    margin-right: 12px;
+    margin: 0px 4px;
     border-radius: 50px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.685);
 }
@@ -204,8 +199,8 @@ div.linha-gradiente-footer {
     display: block;
     width: 100%;
     height: 2px;
-    margin-top: 10px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), var(--cor3), rgba(0, 0, 0, 0));
+    /*border: 1px solid red;*/
 }
 
 footer {
@@ -259,7 +254,6 @@ footer a:hover {
     aside img {
         width: 27px;
         height: 27px;
-        margin-right: 8px;
     }
 }
 
@@ -292,6 +286,5 @@ footer a:hover {
     aside img {
         width: 27px;
         height: 27px;
-        margin-right: 8px;
     }
 }
