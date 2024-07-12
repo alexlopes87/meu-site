@@ -96,8 +96,8 @@ main {
     flex-wrap: wrap;
     flex: 1;
     
-    /*min-width: 280px;
-    max-width: 1000px;*/
+    min-width: 280px;
+    max-width: 1000px;
 }
 
 section {
@@ -106,8 +106,8 @@ section {
     align-items: center;
     justify-content: center;
     padding: 10px;
-    
-    /*width: 100%;*/
+
+    width: 100%;
 }
 
 div.container {
