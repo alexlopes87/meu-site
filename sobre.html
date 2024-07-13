@@ -9,11 +9,13 @@
 <body>
     <header>
         <h1><a href="https://alexlopes.site">alexlopes.site</a></h1>
-        <nav>
+        <span id="btnmenu" onclick="showMenu()">&#9776;</span>
+        <nav id="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li class="closebtn" onclick="closeMenu()">&times;</li>
+                <li><a href="index.html" class="btn">Home</a></li>
+                <li><a href="contato.html" class="btn">Contato</a></li>
+                <li><a href="sobre.html" class="btn">Sobre</a></li>
             </ul>
         </nav>
     </header>
@@ -26,5 +28,6 @@
     <footer>
         <p>&copy;2024 Created by <strong><a href="https://alexlopes.site" target="_blank">Alex Lopes</a></strong></p>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
