@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
     <title>Alex Lopes</title>
 </head>
-<body>
+<body onresize="changeSize()">
     <header>
         <h1><a href="https://alexlopes.site">alexlopes.site</a></h1>
-        <span id="btnmenu" onclick="showMenu()">&#9776;</span>
+        <span id="burger" onclick="showMenu()">&#9776;</span>
         <nav id="menu">
             <ul>
                 <li class="closebtn" onclick="closeMenu()">&times;</li>

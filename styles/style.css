@@ -56,13 +56,13 @@ header > h1 > a {
     text-decoration: none;
 }
 
-header > span#btnmenu {
+header > span#burger {
     cursor: pointer;
-    font-size: 25px;
+    font-size: 22px;
     margin-right: 10px;
 }
 
-header > span#btnmenu:hover {
+header > span#burger:hover {
     color: var(--cor3);
 }
 
@@ -76,7 +76,7 @@ nav {
     overflow-x: hidden;
     transition: 0.5s;
     border-radius: 5px 0px 5px 5px;
-    margin-top: 3%;
+    margin-top: 10px;
 }
 
 nav > ul {
@@ -226,7 +226,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-family: var(--font-paragrafo), var(--font-padrao);
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: var(--cor2);
     width: 100%;
     padding: 6px;
