@@ -47,28 +47,32 @@
         color: #F22F08;
         transition: 0.5s;
     }
+
+    section {
+        flex-direction: row;
+    }
     
     div.container {
-        width: 300px;
-        height: 300px;
+        width: 290px;
+        height: 290px;
     }
 
     article > h1 {
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding-left: 2.8ch;
     }
     
     article > h2 {
-        font-size: 3.2em;
+        font-size: 3em;
     }
     
     article > div > p {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     aside img {
-        width: 31px;
-        height: 31px;
+        width: 32px;
+        height: 32px;
         margin: 0px 4px;
     }
 
@@ -85,7 +89,6 @@
     header {
         display: flex;
         box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.507);
-        padding: 15px;
     }
 
     header > h1 {
