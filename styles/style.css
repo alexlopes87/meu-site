@@ -91,7 +91,6 @@ nav > ul > li {
     text-align: center;
     transition: 0.3s;
     padding: 1px;
-    
 }
 
 nav > ul > li.closebtn {
@@ -113,8 +112,8 @@ nav > ul > li > a:hover {
 
 main {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
