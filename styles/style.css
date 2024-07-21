@@ -45,7 +45,7 @@ header {
 }
 
 header > h1 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Oswald', var(--font-padrao);
     color: var(--cor3);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.233);
@@ -85,7 +85,7 @@ nav > ul {
 
 nav > ul > li {
     font-family: 'Oswald', var(--font-padrao);
-    font-size: 1.1em;
+    font-size: 1em;
     background-color: #404241;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
     text-align: center;
@@ -94,7 +94,7 @@ nav > ul > li {
 }
 
 nav > ul > li.closebtn {
-    font-size: 2em;
+    font-size: 1.8em;
     background-color: #F22F08;
 }
 
@@ -125,8 +125,8 @@ section {
 
 div.container {
     display: flex;
-    width: 270px;
-    height: 270px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
 }
 
