@@ -5,25 +5,24 @@
         display: none;
     }
 
-    header {
-        display: flex;
-        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.507);
-        padding: 8px;
+    #menu {
+        width: 150px;
     }
 
     header > h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     nav {
-        width: 150px;
         position: relative;
         margin-top: 0;
-        background-color: #212624;
     }
 
     nav > ul {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         transition: 0.5s;
     }
 
@@ -33,15 +32,12 @@
 
     nav > ul > li {
         margin-right: 8px;
-        background-color: #212624;
-    }
-
-    nav > ul > li > a {
+        background-color: inherit;
         font-size: 0.8em;
     }
 
     nav > ul > li > a:hover {
-        background-color: #212624;
+        background-color: inherit;
         font-weight: normal;
         color: #F22F08;
         transition: 0.5s;
@@ -51,32 +47,43 @@
         flex-direction: row;
     }
     
-    div.container {
-        width: 230px;
-        height: 230px;
+    div.container.imagem-pulsante {
+        width: 280px;
+        height: 280px;
+    }
+
+    div.bola {
+        background-color: var(--cor2);
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+    }
+
+    article {
+        margin-left: 35px;
+        padding: 0;
     }
 
     article > h1 {
-        font-size: 0.8em;
+        font-size: 1.1em;
         padding-left: 2.8ch;
     }
     
     article > h2 {
-        font-size: 2em;
+        font-size: 3em;
     }
     
     article > div > p {
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     aside img {
-        width: 25px;
-        height: 25px;
-        margin: 0px 4px;
+        width: 32px;
+        height: 32px;
     }
 
     footer {
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
 }
 
@@ -85,25 +92,24 @@
         display: none;
     }
 
-    header {
-        display: flex;
-        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.507);
+    #menu {
+        width: 150px;
     }
 
     header > h1 {
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
 
     nav {
-        width: 150px;
         position: relative;
         margin-top: 0;
-        background-color: #212624;
-        border-radius: 0;
     }
 
     nav > ul {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         transition: 0.5s;
     }
 
@@ -113,15 +119,12 @@
 
     nav > ul > li {
         margin-right: 8px;
-        background-color: #212624;
-    }
-
-    nav > ul > li > a {
+        background-color: inherit;
         font-size: 0.9em;
     }
 
     nav > ul > li > a:hover {
-        background-color: #212624;
+        background-color: inherit;
         font-weight: normal;
         color: #F22F08;
         transition: 0.5s;
@@ -131,13 +134,21 @@
         flex-direction: row;
     }
     
-    div.container {
-        width: 380px;
-        height: 380px;
+    div.container.imagem-pulsante {
+        width: 350px;
+        height: 350px;
+    }
+
+    div.bola {
+        background-color: var(--cor2);
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
     }
 
     article {
-        margin-left: 10px;
+        margin-left: 35px;
+        padding: 0;
     }
 
     article > h1 {
@@ -150,16 +161,15 @@
     }
     
     article > div > p {
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     aside img {
         width: 36px;
         height: 36px;
-        margin: 0px 4px;
     }
 
     footer {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
