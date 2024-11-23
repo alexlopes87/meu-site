@@ -64,16 +64,16 @@
         padding: 0;
     }
 
-    article > h1 {
+    div > h1 {
         font-size: 1.1em;
         padding-left: 2.8ch;
     }
     
-    article > h2 {
+    div > h2 {
         font-size: 3em;
     }
     
-    article > div > p {
+    div.digitado > p {
         font-size: 1em;
     }
 
@@ -151,16 +151,16 @@
         padding: 0;
     }
 
-    article > h1 {
+    div > h1 {
         font-size: 1.5em;
         padding-left: 2.5ch;
     }
     
-    article > h2 {
+    div > h2 {
         font-size: 3.8em;
     }
     
-    article > div > p {
+    div.digitado > p {
         font-size: 1.3em;
     }
 

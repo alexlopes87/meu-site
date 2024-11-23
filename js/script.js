@@ -1,7 +1,7 @@
 window.onload = function() {
-    document.querySelector('aside').classList.add('loadedUp');
     document.querySelector('img').classList.add('loadedUp');
-    document.querySelector('article').classList.add('loadedDown');
+    document.querySelector('#nome').classList.add('loadedDown');
+    document.querySelector('aside').classList.add('loadedUp');
 };
 
 function showMenu() {

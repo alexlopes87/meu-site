@@ -139,21 +139,6 @@ section {
     }
 }
 
-@keyframes loadedDown {
-    from {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-.loadedDown {
-    animation: loadedDown 0.5s ease forwards;
-}
-
 div.container.imagem-pulsante {
     display: flex;
     flex-direction: column;
@@ -181,7 +166,6 @@ div.container > div.bola > img {
     width: 101%;
     border-radius: 50%;
     transition: transform 0.3s;
-    /*box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.596);*/
 }
 
 article {
@@ -189,7 +173,22 @@ article {
     margin-top: 10px;
 }
 
-article > h1 {
+@keyframes loadedDown {
+    from {
+        transform: translateY(-70px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.loadedDown {
+    animation: loadedDown 2s ease forwards;
+}
+
+div > h1 {
     color: var(--cor2);
     font-family: var(--font-paragrafo), var(--font-padrao);
     font-size: .9em;
@@ -197,7 +196,7 @@ article > h1 {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
-article > h2 {
+div > h2 {
     color: var(--cor3);
     font-family: var(--font-nome), var(--font-padrao);
     font-size: 2.5em;
@@ -217,7 +216,7 @@ article > h2 {
     }
 }
 
-article > div.digitado {
+div.digitado {
     display: flex;
     justify-content: center;
     background-color: var(--cor3);
@@ -226,7 +225,7 @@ article > div.digitado {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
 }
 
-article > div > p {
+div.digitado > p {
     width: 9ch;
     color: var(--cor2);
     font-family: monospace, var(--font-code), var(--font-padrao);
@@ -246,7 +245,7 @@ div.linha-gradiente {
 
 @keyframes slideInUp {
     from {
-        transform: translateY(100%);
+        transform: translateY(60px);
         opacity: 0;
     }
     to {
@@ -262,9 +261,21 @@ aside {
 }
 
 .loadedUp {
-    animation: slideInUp 1s ease forwards;
+    animation: slideInUp 2s ease forwards;
     opacity: 1; 
     transform: translateY(0);
+}
+
+#asideUm {
+    animation: slideInUp 1s ease forwards;
+}
+
+#asideDois {
+    animation: slideInUp 1.5s ease forwards;
+}
+
+#asideTres {
+    animation: slideInUp 2s ease forwards;
 }
 
 aside img {
