@@ -279,16 +279,16 @@ aside {
 }
 
 aside img {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
     box-shadow: 1px 1px 5px rgba(0, 0,
     0, 0.678);
     background-color: #fff;
     border: 2px solid #fff;
 }
 
-aside img:hover {
+aside a:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }

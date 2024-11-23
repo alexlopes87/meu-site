@@ -2,7 +2,7 @@ window.onload = function() {
     document.querySelector('img').classList.add('loadedUp');
     document.querySelector('#nome').classList.add('loadedDown');
     document.querySelector('aside').classList.add('loadedUp');
-};
+}
 
 function showMenu() {
     document.getElementById("menu").style.width = "150px"
